@@ -42,6 +42,7 @@ public class AutoTrain extends SubsystemBase
     public static final double kRamseteZeta = 0.7;
 
     private static final double K_GEAR_RATIO = 10.75;
+    //private static final double K_GEAR_RATIO = 12.75; // Apparently this is the corrected number, added 1/12/21
     private static final int K_SENSOR_UNITS_PER_ROTATION = 2048;
     private static final int K_WHEEL_UNITS_PER_REVOLUTION = 22016;
     private static final double PULSE_PER_INCH = (K_SENSOR_UNITS_PER_ROTATION / (2 * WHEEL_RADIUS * Math.PI / K_GEAR_RATIO ));
