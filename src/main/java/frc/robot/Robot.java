@@ -235,7 +235,7 @@ public class Robot extends TimedRobot
   {
     if(robotContainer != null && robotContainer.rCommand.isFinished() )
     {
-      driveTrain.arcadeDrive(0, 0);;
+      driveTrain.arcadeDrive(0, 0);
       robotContainer.shootBall();
       System.out.println("WARNING! Running!");
     }
